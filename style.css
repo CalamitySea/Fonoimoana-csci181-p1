@@ -11,7 +11,7 @@ h1 {
   font-weight: 600;
   line-height: 3rem;
   color: rgb(52, 6, 94);
-  text-shadow: 2px 2px #1a082100;
+  text-shadow: 4px 4px #1a082100;
 }
 
 h2 {
@@ -20,7 +20,7 @@ h2 {
   line-height: 2rem;
   margin-bottom: 0.75rem;
   color: rgb(52, 6, 94);
-  text-shadow: 4px 4px #1a0821;
+  text-shadow: 2px 2px #1a0821;
 }
 
 body,
@@ -29,7 +29,7 @@ html {
 }
 .hero-image {
   background-image: url("https://imagizer.imageshack.com/img923/9402/OLSGtP.png");
-  height: 25%;
+  height: 20%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
