@@ -5,3 +5,11 @@
   background: #a7dbd0;
   color: #1a0821;
 }
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2rem;
+  margin-bottom: 0.75rem;
+  color: #1a0821;
+}
