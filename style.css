@@ -30,7 +30,7 @@ html {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://imagizer.imageshack.com/img923/9402/OLSGtP.png");
-  height: fit-content;
+  height: 10%;
 
   background-position: center;
   background-repeat: no-repeat;
