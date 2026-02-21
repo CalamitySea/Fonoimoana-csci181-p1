@@ -6,6 +6,15 @@
   color: #1a0821;
 }
 
+h1 {
+font-size: 3rem;
+font-weight: 700;
+line-height: 2rem;
+margin-bottom: 0.75rem;
+color: rgb(52, 6, 94);
+}
+}
+
 h2 {
   font-size: 2rem;
   font-weight: 500;
@@ -23,11 +32,8 @@ html {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://imagizer.imageshack.com/img923/9402/OLSGtP.png");
+  height: 25%;
 
-  /* Set a specific height */
-  height: 50%;
-
-  /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
