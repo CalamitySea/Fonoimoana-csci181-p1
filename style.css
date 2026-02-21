@@ -21,11 +21,6 @@ h2 {
   color: rgb(52, 6, 94);
 }
 
-body,
-html {
-  height: 100%;
-}
-
 .hero-image {
   background-image: url("https://imagizer.imageshack.com/img923/9402/OLSGtP.png");
   height: 250px;
