@@ -28,7 +28,11 @@ html {
 
 .hero-image {
   background-image: url("https://imagizer.imageshack.com/img923/9402/OLSGtP.png");
-  height: 40%;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .hero-text {
