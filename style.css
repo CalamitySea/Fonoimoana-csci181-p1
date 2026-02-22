@@ -4,6 +4,7 @@
   padding: 1px 16px;
   background: #c5ede5;
   color: #1a0821;
+  z-index: 1000;
 }
 
 h1 {
@@ -85,11 +86,12 @@ li {
 }
 
 .footer {
-  padding: 1px 16px;
-  background: #c5ede5;
-  color: #1a0821;
-  text-align: center;
-  position: fixed;
   width: 100%;
-  bottom: 0%;
+  font-size: 1.5rem;
+  text-align: center;
+  overflow: visible;
+  color: #1a0821;
+  font-weight: bold;
+  height: 4rem;
+  background-color: #c5ede5;
 }
