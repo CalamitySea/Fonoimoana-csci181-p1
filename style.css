@@ -1,17 +1,17 @@
 .header {
   position: sticky;
   top: 0;
-  padding: 10px 16px;
-  background: #a7dbd0;
+  padding: 1px 16px;
+  background: #c5ede5;
   color: #1a0821;
 }
 
 h1 {
   font-size: 4rem;
   font-weight: 600;
-  line-height: 3rem;
+  line-height: 1rem;
   color: rgb(52, 6, 94);
-  text-shadow: 2px 2px 6px #1a0821;
+  text-shadow: 2px 2px 8px #1a0821;
 }
 
 h2 {
@@ -19,7 +19,25 @@ h2 {
   font-weight: 500;
   line-height: 1rem;
   color: rgb(52, 6, 94);
-  text-shadow: 1px 1px 2px #1a0821;
+  text-shadow: 1px 1px 5px #1a0821;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1rem;
+  color: #c5ede5;
+  text-shadow: 1px 1px 1px #1a0821;
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: -0.75rem;
+  margin-bottom: -0.3rem;
+  line-height: 3rem;
+  color: rgb(52, 6, 94);
+  text-shadow: 1px 1px 3px #c5ede5;
 }
 
 body,
@@ -42,4 +60,36 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(52, 6, 94);
+}
+ul {
+  display: inline-flex;
+}
+li {
+  display: inline-flex;
+  gap: 0.75rem;
+}
+
+.card {
+  box-shadow: 2px 2px 8px 0px #1a0821;
+  transition: 0.3s;
+  width: 20%;
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 #c5ede5;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.footer {
+  padding: 1px 16px;
+  background: #c5ede5;
+  color: #1a0821;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0%;
 }
